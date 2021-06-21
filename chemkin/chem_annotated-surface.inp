@@ -105,7 +105,7 @@ X(1)+NH3(6)=NH3X                                    1.000e+00 0.000     0.000
 ! Reaction index: Chemkin #3; RMG #3
 ! Library reaction: Surface/Schneider_Pt111
 ! Flux pairs: OX, OHX; NH3X, NH2_X(8); 
-OX+NH3X=OHX+NH2_X(8)                                2.090000e+21 0.000     16.143   
+OX+NH3X=OHX+NH2_X(8)                                1.010000e+21 0.000     16.143   
 
 ! Reaction index: Chemkin #4; RMG #4
 ! Library reaction: Surface/Schneider_Pt111
@@ -146,7 +146,7 @@ X(1)+H2O(3)=H2O_X(10)                               9.674e-01 0.000     0.000
 ! Reaction index: Chemkin #11; RMG #11
 ! Library reaction: Surface/Schneider_Pt111
 ! Flux pairs: NX, N2(4); NX, X(1); NX, X(1); 
-NX+NX=X(1)+X(1)+N2(4)                               3.710000e+24 0.000     58.346   
+NX+NX=X(1)+X(1)+N2(4)                               3.710000e+21 0.000     58.346   
 
 ! Reaction index: Chemkin #12; RMG #12
 ! Library reaction: Surface/Schneider_Pt111
@@ -171,27 +171,27 @@ N2O_X(11)=X(1)+N2O(7)                               1.400000e+16 0.000     0.000
 ! Reaction index: Chemkin #16; RMG #16
 ! Library reaction: Surface/Schneider_Pt111
 ! Flux pairs: NH3X, NH2_X(8); X(1), H_X(12); 
-X(1)+NH3X=H_X(12)+NH2_X(8)                          1.850000e+00 0.000     26.752   
+X(1)+NH3X=H_X(12)+NH2_X(8)                          5.500000e+20 0.000     26.752   
 
 ! Reaction index: Chemkin #17; RMG #17
 ! Library reaction: Surface/Schneider_Pt111
 ! Flux pairs: NH2_X(8), NH_X(9); X(1), H_X(12); 
-X(1)+NH2_X(8)=H_X(12)+NH_X(9)                       2.340000e+21 0.000     31.364   
+X(1)+NH2_X(8)=H_X(12)+NH_X(9)                       2.160000e+21 0.000     31.364   
 
 ! Reaction index: Chemkin #18; RMG #18
 ! Library reaction: Surface/Schneider_Pt111
 ! Flux pairs: NH_X(9), NX; X(1), H_X(12); 
-X(1)+NH_X(9)=NX+H_X(12)                             2.900000e+21 0.000     32.056   
+X(1)+NH_X(9)=NX+H_X(12)                             2.460000e+21 0.000     32.056   
 
 ! Reaction index: Chemkin #19; RMG #19
 ! Library reaction: Surface/Schneider_Pt111
 ! Flux pairs: OX, OHX; H_X(12), X(1); 
-OX+H_X(12)=X(1)+OHX                                 2.550000e+21 0.000     25.137   
+OX+H_X(12)=X(1)+OHX                                 2.640000e+21 0.000     25.137   
 
 ! Reaction index: Chemkin #20; RMG #20
 ! Library reaction: Surface/Schneider_Pt111
 ! Flux pairs: OHX, H2O_X(10); H_X(12), X(1); 
-H_X(12)+OHX=X(1)+H2O_X(10)                          4.020000e+21 0.000     4.843    
+H_X(12)+OHX=X(1)+H2O_X(10)                          2.640000e+21 0.000     4.843    
 
 ! Reaction index: Chemkin #21; RMG #36
 ! Template reaction: Surface_Abstraction_vdW

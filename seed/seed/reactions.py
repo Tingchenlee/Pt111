@@ -33,7 +33,7 @@ entry(
     index = 2,
     label = "OX + NH3X <=> OHX + NH2_X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.09e+21,'cm^2/(mol*s)'), n=0, Ea=(67543,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(1.01e+21,'cm^2/(mol*s)'), n=0, Ea=(67543,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     longDesc = 
 """
 Originally from reaction library: Surface/Schneider_Pt111
@@ -121,7 +121,7 @@ entry(
     index = 10,
     label = "NX + NX <=> X + X + N2",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(3.71e+24,'cm^2/(mol*s)'), n=0, Ea=(244120,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(3.71e+21,'cm^2/(mol*s)'), n=0, Ea=(244120,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     longDesc = 
 """
 Originally from reaction library: Surface/Schneider_Pt111
@@ -176,7 +176,7 @@ entry(
     index = 15,
     label = "X + NH3X <=> H_X + NH2_X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(1.85,'cm^2/(mol*s)'), n=0, Ea=(111928,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(5.5e+20,'cm^2/(mol*s)'), n=0, Ea=(111928,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     longDesc = 
 """
 Originally from reaction library: Surface/Schneider_Pt111
@@ -187,7 +187,7 @@ entry(
     index = 16,
     label = "X + NH2_X <=> H_X + NH_X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.34e+21,'cm^2/(mol*s)'), n=0, Ea=(131226,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.16e+21,'cm^2/(mol*s)'), n=0, Ea=(131226,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     longDesc = 
 """
 Originally from reaction library: Surface/Schneider_Pt111
@@ -198,7 +198,7 @@ entry(
     index = 17,
     label = "X + NH_X <=> NX + H_X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.9e+21,'cm^2/(mol*s)'), n=0, Ea=(134121,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.46e+21,'cm^2/(mol*s)'), n=0, Ea=(134121,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     longDesc = 
 """
 Originally from reaction library: Surface/Schneider_Pt111
@@ -209,7 +209,7 @@ entry(
     index = 18,
     label = "OX + H_X <=> X + OHX",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(2.55e+21,'cm^2/(mol*s)'), n=0, Ea=(105174,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.64e+21,'cm^2/(mol*s)'), n=0, Ea=(105174,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     longDesc = 
 """
 Originally from reaction library: Surface/Schneider_Pt111
@@ -220,7 +220,7 @@ entry(
     index = 19,
     label = "H_X + OHX <=> X + H2O_X",
     degeneracy = 1.0,
-    kinetics = SurfaceArrhenius(A=(4.02e+21,'cm^2/(mol*s)'), n=0, Ea=(20262.9,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
+    kinetics = SurfaceArrhenius(A=(2.64e+21,'cm^2/(mol*s)'), n=0, Ea=(20262.9,'J/mol'), T0=(1,'K'), Tmin=(200,'K'), Tmax=(3000,'K')),
     longDesc = 
 """
 Originally from reaction library: Surface/Schneider_Pt111

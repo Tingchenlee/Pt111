@@ -690,7 +690,7 @@ Reactions:
   - NH3
   type: ElementaryReaction
 - kinetics:
-    A: 2.09e+17
+    A: 1.01e+17
     Ea: 67543.0
     n: 0.0
     type: Arrhenius
@@ -793,7 +793,7 @@ Reactions:
   - H2O
   type: ElementaryReaction
 - kinetics:
-    A: 3.7100000000000007e+20
+    A: 3.71e+17
     Ea: 244119.7
     n: 0.0
     type: Arrhenius
@@ -857,7 +857,7 @@ Reactions:
   - N2O_X
   type: ElementaryReaction
 - kinetics:
-    A: 0.00018500000000000002
+    A: 5.5e+16
     Ea: 111928.4
     n: 0.0
     type: Arrhenius
@@ -870,7 +870,7 @@ Reactions:
   - NH3X
   type: ElementaryReaction
 - kinetics:
-    A: 2.34e+17
+    A: 2.16e+17
     Ea: 131226.4
     n: 0.0
     type: Arrhenius
@@ -883,7 +883,7 @@ Reactions:
   - NH2_X
   type: ElementaryReaction
 - kinetics:
-    A: 2.9e+17
+    A: 2.46e+17
     Ea: 134121.1
     n: 0.0
     type: Arrhenius
@@ -896,7 +896,7 @@ Reactions:
   - NH_X
   type: ElementaryReaction
 - kinetics:
-    A: 2.55e+17
+    A: 2.64e+17
     Ea: 105174.1
     n: 0.0
     type: Arrhenius
@@ -909,7 +909,7 @@ Reactions:
   - H_X
   type: ElementaryReaction
 - kinetics:
-    A: 4.02e+17
+    A: 2.64e+17
     Ea: 20262.9
     n: 0.0
     type: Arrhenius
