@@ -8,10 +8,8 @@ restartFromSeed(path='seed')
 database(
     thermoLibraries=['surfaceThermoPt111', 'primaryThermoLibrary', 'thermo_DFT_CCSDTF12_BAC','CHON_G4','NOx2018', 'GRI-Mech3.0-N', 'NitrogenCurran','DFT_QCI_thermo'],
     reactionLibraries =['Surface/CPOX_Pt/Deutschmann2006'],
-    #reactionLibraries =['Surface/CPOX_Pt/Deutschmann2006','Surface/Rebrov_Pt111','Surface/Nitrogen','Surface/Arevalo_Pt111','Surface/Kraehnert_Pt111','Surface/Schneider_Pt111','Surface/Novell_Pt111','Surface/Offermans_Pt111','Surface/Scheuer_Pt'],
-    seedMechanisms = ['Surface/Schneider_Pt111','Surface/Nitrogen'],
+    seedMechanisms = ['Surface/Rebrov_Pt111','Surface/Nitrogen'],
     kineticsDepositories = ['training'],
-    # kineticsFamilies = ['surface'],
     kineticsFamilies = [
     'Surface_Adsorption_Single',
     'Surface_Adsorption_vdW',
@@ -183,15 +181,15 @@ species(
 
 #temperature from 523-673K 
 surfaceReactor(  
-    temperature=[(500,'K'),(1500,'K')],
+    temperature=[(500,'K'),(1000,'K')],
     initialPressure=(1.0, 'bar'),
     nSims=6,
     initialGasMoleFractions={
-        "NH3": 0.002,
-        "O2": 0.01,
-        "He": 0.938,
+        "NH3": 0.066,
+        "O2": 0.88,
+        "He": 0.054,
         "NO":0.0,
-        "H2O":0.05,
+        "H2O":0.0,
         "N2O":0.0,
         "N2":0.0,
         "NX":0.0,
