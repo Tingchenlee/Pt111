@@ -351,18 +351,3 @@ surface_reaction('OX + H_X(12) <=> X(1) + OHX', [2.640000e+21, 0.0, 25.137])
 
 # surface1 Reaction 20
 surface_reaction('H_X(12) + OHX <=> X(1) + H2O_X(10)', [2.640000e+21, 0.0, 4.843])
-
-# surface1 Reaction 21
-surface_reaction('NH_X(9) + NH3X <=> NH2_X(8) + NH2_X(8)', [4.949007e+19, 0.653, 28.713])
-
-# surface1 Reaction 22
-surface_reaction('NX + NH3X <=> NH_X(9) + NH2_X(8)', [4.949007e+19, 0.653, 28.713])
-
-# surface1 Reaction 23
-surface_reaction('X(1) + X(1) + NH3(6) <=> H_X(12) + NH2_X(8)', stick(2.400000e-02, 0.0, 0.0))
-
-# surface1 Reaction 24
-surface_reaction('NX + NH2_X(8) <=> NH_X(9) + NH_X(9)', [8.359256e+21, -0.018, 7.182])
-
-# surface1 Reaction 25
-surface_reaction('X(1) + X(1) + H2O(3) <=> H_X(12) + OHX', stick(3.200000e-02, 0.0, 14.803))
