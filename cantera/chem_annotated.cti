@@ -322,7 +322,7 @@ species(name='H_X(19)',
 #  Flux pairs: O2(2), OX(11); X(1), OX(11); X(1), OX(11);
 
 # surface1 Reaction 1
-surface_reaction('X(1) + X(1) + O2(2) <=> OX(11) + OX(11)', stick(9.975000e-01, 0.0, 0.0))
+surface_reaction('X(1) + X(1) + O2(2) <=> OX(11) + OX(11)', stick(1, 0.0, 0.0))
 #  Reaction index: Chemkin #2; RMG #2
 #  Library reaction: Surface/Schneider_Pt111
 #  Flux pairs: X(1), NH3X(14); NH3(6), NH3X(14);
@@ -334,7 +334,7 @@ surface_reaction('X(1) + NH3(6) <=> NH3X(14)', stick(1.000000e+00, 0.0, 0.0))
 #  Flux pairs: OX(11), OHX(13); NH3X(14), NH2X(15);
 
 # surface1 Reaction 3
-surface_reaction('OX(11) + NH3X(14) <=> OHX(13) + NH2X(15)', [1.010000e+21, 0.0, 16.143])
+surface_reaction('OX(11) + NH3X(14) <=> OHX(13) + NH2X(15)', [2.090000e+21, 0.0, 16.143])
 #  Reaction index: Chemkin #4; RMG #4
 #  Library reaction: Surface/Schneider_Pt111
 #  Flux pairs: OX(11), OHX(13); NH2X(15), NHX(16);
@@ -373,22 +373,22 @@ surface_reaction('OHX(13) + NHX(16) <=> NX(12) + H2OX(9)', [2.380000e+21, 0.0, 9
 surface_reaction('OHX(13) + OHX(13) <=> OX(11) + H2OX(9)', [1.250000e+21, 0.0, 0.0])
 #  Reaction index: Chemkin #10; RMG #10
 #  Library reaction: Surface/Schneider_Pt111
-#  Flux pairs: X(1), H2OX(9); H2O(3), H2OX(9);
+#  Flux pairs: H2OX(9), X(1); H2OX(9), H2O(3);
 
 # surface1 Reaction 10
-surface_reaction('X(1) + H2O(3) <=> H2OX(9)', stick(9.674000e-01, 0.0, 0.0))
+surface_reaction('H2OX(9) <=> X(1) + H2O(3)', [5.90000e+9, 0.0, 0.0])
 #  Reaction index: Chemkin #11; RMG #11
 #  Library reaction: Surface/Schneider_Pt111
 #  Flux pairs: NX(12), N2(4); NX(12), X(1); NX(12), X(1);
 
 # surface1 Reaction 11
-surface_reaction('NX(12) + NX(12) <=> X(1) + X(1) + N2(4)', [3.710000e+21, 0.0, 58.346])
+surface_reaction('NX(12) + NX(12) <=> X(1) + X(1) + N2(4)', [3.710000e+20, 0.0, 58.346])
 #  Reaction index: Chemkin #12; RMG #12
 #  Library reaction: Surface/Schneider_Pt111
 #  Flux pairs: OX(11), NOX(10); NX(12), X(1);
 
 # surface1 Reaction 12
-surface_reaction('OX(11) + NX(12) <=> X(1) + NOX(10)', [3.340000e+21, 0.0, 50.966])
+surface_reaction('OX(11) + NX(12) <=> X(1) + NOX(10)', [1.340000e+21, 0.0, 50.966])
 #  Reaction index: Chemkin #13; RMG #13
 #  Library reaction: Surface/Schneider_Pt111
 #  Flux pairs: NOX(10), X(1); NOX(10), NO(5);
@@ -400,7 +400,7 @@ surface_reaction('NOX(10) <=> X(1) + NO(5)', [2.600000e+17, 0.0, 44.048])
 #  Flux pairs: NOX(10), N2OX(17); NX(12), X(1);
 
 # surface1 Reaction 14
-surface_reaction('NX(12) + NOX(10) <=> X(1) + N2OX(17)', [1.730000e+21, 0.0, 39.435])
+surface_reaction('NX(12) + NOX(10) <=> X(1) + N2OX(17)', [1.730000e+20, 0.0, 39.435])
 #  Reaction index: Chemkin #15; RMG #15
 #  Library reaction: Surface/Schneider_Pt111
 #  Flux pairs: N2OX(17), X(1); N2OX(17), N2O(7);
@@ -437,33 +437,3 @@ surface_reaction('OX(11) + H_X(19) <=> X(1) + OHX(13)', [2.640000e+21, 0.0, 25.1
 
 # surface1 Reaction 20
 surface_reaction('H_X(19) + OHX(13) <=> X(1) + H2OX(9)', [2.640000e+21, 0.0, 4.843])
-#  Reaction index: Chemkin #21; RMG #21
-#  Library reaction: Surface/Nitrogen
-#  Flux pairs: X(1), NO2X(18); NO2(8), NO2X(18);
-
-# surface1 Reaction 21
-surface_reaction('X(1) + NO2(8) <=> NO2X(18)', stick(9.000000e-01, 0.0, 0.0))
-#  Reaction index: Chemkin #22; RMG #22
-#  Library reaction: Surface/Nitrogen
-#  Flux pairs: NO2X(18), OX(11); NO2X(18), NO(5);
-
-# surface1 Reaction 22
-surface_reaction('NO2X(18) <=> OX(11) + NO(5)', [3.300000e+14, 0.0, 27.605])
-#  Reaction index: Chemkin #23; RMG #23
-#  Library reaction: Surface/Nitrogen
-#  Flux pairs: NOX(10), NO2X(18); OX(11), X(1);
-
-# surface1 Reaction 23
-surface_reaction('OX(11) + NOX(10) <=> X(1) + NO2X(18)', [1.300000e+17, 0.0, 31.788])
-#  Reaction index: Chemkin #24; RMG #24
-#  Library reaction: Surface/Nitrogen
-#  Flux pairs: NOX(10), OHX(13); H_X(19), NX(12);
-
-# surface1 Reaction 24
-surface_reaction('NOX(10) + H_X(19) <=> NX(12) + OHX(13)', [1.200000e+21, 0.0, 5.975])
-#  Reaction index: Chemkin #25; RMG #25
-#  Library reaction: Surface/Nitrogen
-#  Flux pairs: NO2X(18), NOX(10); H_X(19), OHX(13);
-
-# surface1 Reaction 25
-surface_reaction('NO2X(18) + H_X(19) <=> NOX(10) + OHX(13)', [3.900000e+21, 0.0, 4.78])
