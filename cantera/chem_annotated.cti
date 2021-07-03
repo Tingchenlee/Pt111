@@ -322,7 +322,7 @@ species(name='H_X(19)',
 #  Flux pairs: O2(2), OX(11); X(1), OX(11); X(1), OX(11);
 
 # surface1 Reaction 1
-surface_reaction('X(1) + X(1) + O2(2) <=> OX(11) + OX(11)', stick(1, 0.0, 0.0))
+surface_reaction('X(1) + X(1) + O2(2) <=> OX(11) + OX(11)', stick(0.9975, 0.0, 0.0))
 #  Reaction index: Chemkin #2; RMG #2
 #  Library reaction: Surface/Schneider_Pt111
 #  Flux pairs: X(1), NH3X(14); NH3(6), NH3X(14);
@@ -412,28 +412,28 @@ surface_reaction('N2OX(17) <=> X(1) + N2O(7)', [1.400000e+16, 0.0, 0.0])
 #  Flux pairs: NH3X(14), NH2X(15); X(1), H_X(19);
 
 # surface1 Reaction 16
-surface_reaction('X(1) + NH3X(14) <=> H_X(19) + NH2X(15)', [5.500000e+20, 0.0, 26.752])
+surface_reaction('X(1) + NH3X(14) <=> H_X(19) + NH2X(15)', [3.820000e+20, 0.0, 26.752])
 #  Reaction index: Chemkin #17; RMG #17
 #  Library reaction: Surface/Schneider_Pt111
 #  Flux pairs: NH2X(15), NHX(16); X(1), H_X(19);
 
 # surface1 Reaction 17
-surface_reaction('X(1) + NH2X(15) <=> H_X(19) + NHX(16)', [2.160000e+21, 0.0, 31.364])
+surface_reaction('X(1) + NH2X(15) <=> H_X(19) + NHX(16)', [3.450000e+21, 0.0, 31.364])
 #  Reaction index: Chemkin #18; RMG #18
 #  Library reaction: Surface/Schneider_Pt111
 #  Flux pairs: NHX(16), NX(12); X(1), H_X(19);
 
 # surface1 Reaction 18
-surface_reaction('X(1) + NHX(16) <=> NX(12) + H_X(19)', [2.460000e+21, 0.0, 32.056])
+surface_reaction('X(1) + NHX(16) <=> NX(12) + H_X(19)', [3.630000e+21, 0.0, 32.056])
 #  Reaction index: Chemkin #19; RMG #19
 #  Library reaction: Surface/Schneider_Pt111
 #  Flux pairs: OX(11), OHX(13); H_X(19), X(1);
 
 # surface1 Reaction 19
-surface_reaction('OX(11) + H_X(19) <=> X(1) + OHX(13)', [2.640000e+21, 0.0, 25.137])
+surface_reaction('OX(11) + H_X(19) <=> X(1) + OHX(13)', [1.280000e+21, 0.0, 25.137])
 #  Reaction index: Chemkin #20; RMG #20
 #  Library reaction: Surface/Schneider_Pt111
 #  Flux pairs: OHX(13), H2OX(9); H_X(19), X(1);
 
 # surface1 Reaction 20
-surface_reaction('H_X(19) + OHX(13) <=> X(1) + H2OX(9)', [2.640000e+21, 0.0, 4.843])
+surface_reaction('H_X(19) + OHX(13) <=> X(1) + H2OX(9)', [2.040000e+21, 0.0, 4.843])
